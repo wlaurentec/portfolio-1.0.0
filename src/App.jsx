@@ -1,4 +1,5 @@
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
 import Hero from "./components/Hero/Hero";
 import MyWork from "./components/MyWork.jsx/MyWork";
 import Navbar from "./components/Navbar/Navbar";
@@ -7,11 +8,12 @@ import Services from "./components/Services.jsx/Services";
 const App = () => {
   return (
     <div>
-      {/* <Navbar />
+      <Navbar />
       <Hero />
       <About />
-      <Services /> */}
+      <Services />
       <MyWork />
+      <Contact />
     </div>
   );
 };
