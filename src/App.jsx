@@ -9,12 +9,12 @@ import Services from "./components/Services.jsx/Services";
 const App = () => {
   return (
     <div>
-   {/*    <Navbar />
+      <Navbar />
       <Hero />
       <About />
       <Services />
       <MyWork />
-      <Contact /> */}
+      <Contact />
       <Footer />
     </div>
   );
