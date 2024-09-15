@@ -38,7 +38,7 @@
 .contact-left h1 {
   font-size: 80px;
   font-weight: 700;
-  background: linear-gradient(270deg, #DF8908 80%, #B415FF 100%);
+  background: linear-gradient(270deg, #df8908 80%, #b415ff 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -46,7 +46,7 @@
 
 .contact-left p {
   max-width: 550px;
-  color: #D8D8D8;
+  color: #d8d8d8;
   font-size: 20x;
   line-height: 35px;
 }
@@ -55,7 +55,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  color: #D8D8D8;
+  color: #d8d8d8;
   font-size: 22px;
 }
 
@@ -73,30 +73,30 @@
 }
 
 .contact-right label {
-  color: #D8D8D8;
+  color: #d8d8d8;
   font-size: 22px;
   font-weight: 500;
 }
 
-.contact-right input{
- border: none;
- width: 700px;
- height: 78px;
- padding-left: 20px;
- border-radius: 4px;
- background: #32323c;
- color: #A0A0A0;
- font-family: Outfit;
- font-size: 20px;
+.contact-right input {
+  border: none;
+  width: 700px;
+  height: 78px;
+  padding-left: 20px;
+  border-radius: 4px;
+  background: #32323c;
+  color: #a0a0a0;
+  font-family: Outfit;
+  font-size: 20px;
 }
 
-.contact-right textarea{
+.contact-right textarea {
   border: none;
   width: 650px;
   padding: 25px;
   border-radius: 4px;
   background: #32323c;
-  color: #A0A0A0;
+  color: #a0a0a0;
   font-family: Outfit;
   font-size: 20px;
 }
@@ -105,7 +105,7 @@
   border: none;
   color: white;
   border-radius: 50px;
-  background: linear-gradient(270deg, #DF8908 -5.09%, #B415FF 100.26%);
+  background: linear-gradient(270deg, #df8908 -5.09%, #b415ff 100.26%);
   font-size: 22px;
   padding: 20px 60px;
   margin-bottom: 50px;
@@ -115,4 +115,51 @@
 .contact-submit:hover {
   transform: scale(1.1);
   transition: 0.3s;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    gap: 50px;
+    margin: 50px 70px;
+    align-items: start;
+  }
+  .contact-title h1 {
+    padding: 0;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .contact-title img {
+    width: 130px;
+    margin-right: -20px;
+  }
+  .contact-section {
+    flex-direction: column;
+  }
+  .contact-left h1 {
+    font-size: 54px;
+  }
+  .contact-left p {
+    font-size: 18px;
+  }
+  .contact-detail {
+    gap: 20px;
+  }
+  .contact-detail img {
+    width: 25px;
+  }
+  .contact-right label {
+    font-size: 20px;
+  }
+  .contact-right input {
+    width: 100%;
+    font-size: 20px;
+  }
+  .contact-right textarea {
+    width: 95%; 
+    font-size: 20px;
+  }
+  .contact-submit {
+    padding: 15px 40px;
+    font-size: 20px;
+  }
 }
