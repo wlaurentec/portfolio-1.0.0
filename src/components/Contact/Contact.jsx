@@ -25,6 +25,8 @@ const Contact = () => {
     if (res.success) {
       alert(res.message);
     }
+     // Borra los valores ingresados en el formulario
+  event.target.reset();
   };
 
   return (
